@@ -19,7 +19,7 @@ function App() {
 const Container = styled.div `
   max-width: 350px;
   min-height: 70vh;
-  background-color: seashell;
+  background-color: white;
   padding: 16px;
   margin: 20px auto;
   border-radius: 5px;

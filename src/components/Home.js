@@ -44,7 +44,7 @@ const Line = styled.div `
   h3 {
     padding: 5px;
     padding-right: 8px;
-    background-color: white;
+    background-color: lavenderblush;
     border-radius: 30px;
   }
 `
