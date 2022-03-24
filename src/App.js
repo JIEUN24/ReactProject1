@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Score from "./components/Score";
 
 function App() {
-
   return (
     <div className="App">
       <Container>

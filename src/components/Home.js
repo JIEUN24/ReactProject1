@@ -13,11 +13,13 @@ const Home = (props) => {
       return (
         <>
         <Title>내 일주일은?</Title>
+        
+        {/* 자바스크립트의 내장함수인 map을 사용하여 값과 인덱스를 받아 7개의 Line을 만들어준다. */}
         {list.map((list, index) => {
             const getRandom = (min, max) => Math.floor(Math.random() * (max - min) + min);
             const num = getRandom(0, 5);
             return (
-              <Line>
+              <Line key={index}>
                 <h3>{list}</h3>
                 { circle.map((e, i) => {
                   return <Circle
